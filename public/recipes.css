@@ -1,0 +1,37 @@
+body {
+  font-family: system-ui;
+  font-size: 16px;
+  line-height: 1.3em;
+  margin: 1em;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+
+  img {
+    text-align: right;
+    height: 3em;
+  }
+}
+
+.search-result {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-bottom: solid 4px #999;
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+  img {
+    margin-bottom: 1em;
+    width: 100%;
+    border-radius: 12px;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  body {
+    width: 640px;
+    margin: 12px auto;
+  }
+}
