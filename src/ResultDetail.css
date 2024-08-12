@@ -1,0 +1,33 @@
+.result-detail {
+    padding: 20px;
+  }
+  
+  .image-size {
+    width: 90%;
+    height: 70%;
+    border-radius: 10px;
+  }
+  
+  .bookmark-button {
+    background-color: #007BFF; 
+    width: 90%;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: block;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .bookmark-button i {
+    margin-right: 8px;
+  }
+  
+  .bookmark-button:hover {
+    background-color: #0056b3;
+  }
+  

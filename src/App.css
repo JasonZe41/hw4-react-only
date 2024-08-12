@@ -1,0 +1,41 @@
+.app-container {
+    padding: 10px;
+  }
+  
+  .search-input, .bookmark-button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .result-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+  }
+  
+  .results-container {
+    padding: 20px;
+  }
+  
+  .result-detail {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .bookmark-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+  }
+  
+  .bookmark-button:hover {
+    background-color: #0056b3;
+  }
+  
