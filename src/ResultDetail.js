@@ -1,5 +1,5 @@
 import React from 'react';
-import './ResultDetail.css'; // Make sure styles are correctly imported
+import './ResultDetail.css'; 
 
 function ResultDetail({ result, onBookmark }) {
   const ingredients = [];
